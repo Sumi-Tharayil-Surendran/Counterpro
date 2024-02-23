@@ -38,3 +38,21 @@ font-size: 6rem;
 .container>button:active{
     background-color: whitesmoke;
 }
+p{
+    color: white;
+    align-items: center;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* .copyWright p {
+    margin: 0;
+} */
