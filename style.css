@@ -20,3 +20,17 @@ font-size: 6rem;
     align-items: center;
     
 }
+.container > button{
+    margin: 10px;
+    border-radius:100px;
+    padding: 20px 20px;
+    cursor: pointer; 
+    background: rgb(64, 33, 240);
+    transition: transform 1s ease;
+}
+.container>button:hover{
+    transform:translateY(10px);
+}
+.container>button:active{
+    background-color: whitesmoke;
+}
