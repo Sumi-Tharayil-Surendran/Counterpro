@@ -9,6 +9,9 @@
     font-family:"Dhurjati";
     font-weight: 700;
 } 
+body{
+    background-color: rgb(191, 81, 191);
+}
 
 #counter{
 text-align: center;
@@ -18,6 +21,7 @@ font-size: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
     
 }
 .container > button{
@@ -25,7 +29,7 @@ font-size: 6rem;
     border-radius:100px;
     padding: 20px 20px;
     cursor: pointer; 
-    background: rgb(64, 33, 240);
+    background: rgb(14, 189, 17);
     transition: transform 1s ease;
 }
 .container>button:hover{
