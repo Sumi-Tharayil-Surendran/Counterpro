@@ -1,2 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Dhurjati&display=swap')
+ @import url('https://fonts.googleapis.com/css2?family=Anta&family=Dhurjati&display=swap');
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Dhurjati";
+    font-weight: 700;
+} 
+
+#counter{
+text-align: center;
+font-size: 6rem;
+}
